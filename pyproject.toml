@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fp_tutorial"
+version = "0.1.0"
+description = "Fastapi Tutorial"
+authors = ["Sangyoon Lee"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8 <3.10"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+python-multipart = "^0.0.5"
+Jinja2 = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
